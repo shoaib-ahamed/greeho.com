@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 368px) {
+@media (max-width: 368px) {
   .card {
     width: 12rem;
   }
