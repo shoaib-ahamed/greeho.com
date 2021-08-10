@@ -1,0 +1,26 @@
+.background {
+  margin-top: 4rem;
+  background-image: url("../public/footer.jpg");
+}
+
+.foreground {
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 30px;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footerContent p {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    grid-template-columns: 1fr;
+  }
+}

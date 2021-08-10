@@ -1,0 +1,42 @@
+.carouselContainer {
+  display: grid;
+  justify-content: center;
+}
+
+.recommendation {
+  padding-top: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.recommendationContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.iconContent {
+  display: grid;
+  justify-items: center;
+}
+
+.icon {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(64, 64, 248, 0.678);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.recommendation p {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .recommendationContent {
+    grid-template-columns: 1fr;
+  }
+}

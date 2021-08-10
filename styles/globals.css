@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  background-color: rgb(130 130 130 / 22%);
+  padding: 3rem 4rem;
+}
+
+.button {
+  width: 40px;
+}
+
+/* ----------- Content ------------- */
+@import url("./content.css");
+
+/* ----------- Carousel ------------- */
+@import url("./carousel.css");
+
+/* ----------- Footer ------------- */
+@import url("./footer.css");
