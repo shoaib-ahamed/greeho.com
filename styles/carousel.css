@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.card {
+  width: 22rem;
+}
+
 .recommendation {
   padding-top: 4rem;
   text-align: center;
@@ -38,5 +42,15 @@
 @media (max-width: 768px) {
   .recommendationContent {
     grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 368px) {
+  .card {
+    width: 12rem;
   }
 }

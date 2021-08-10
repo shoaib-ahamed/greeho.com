@@ -20,7 +20,7 @@ const Testimonials = () => {
                     <div className="carousel-inner">
 
                         <div className="carousel-item active">
-                            <div className="card" style={{width: '22rem'}}>
+                            <div className="card" >
                                 <div className="card-body">
                                 <p className="card-text">
                                     গৃহের কাছ থেকে সবসময় ভাল সার্ভিস পেয়েছি <br/> 
@@ -34,7 +34,7 @@ const Testimonials = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="card" style={{width: '22rem'}}>
+                            <div className="card">
                                 <div className="card-body">
                                 <p className="card-text">
                                     গৃহের কাছ থেকে সবসময় ভাল সার্ভিস পেয়েছি <br/> 
@@ -48,7 +48,7 @@ const Testimonials = () => {
                         </div>
 
                         <div className="carousel-item">
-                            <div className="card" style={{width: '22rem'}}>
+                            <div className="card">
                                 <div className="card-body">
                                 <p className="card-text">
                                     গৃহের কাছ থেকে সবসময় ভাল সার্ভিস পেয়েছি <br/> 
